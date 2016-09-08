@@ -25,7 +25,7 @@ function loadDoc() {
 //loadDoc();
 
 $(function(){
-
+function ajaxfunc() {
  	 $.ajax({
       //url: 'https://eforms.rhodar.co.uk/api/v1/training_updates/users?auth_token=MntrxJTGbX-Pqoy29dDn',
       url: 'http://54.234.147.103/aws-ajax/json.json',
@@ -46,9 +46,11 @@ $(function(){
       },
       type: 'GET'
    });
+ }
+ ajaxfunc();
 });
 
 
 if(window.matchMedia('(min-width: 768px)').matches) {
-	console.log('under 768px')
+	//console.log('under 768px')
 }
