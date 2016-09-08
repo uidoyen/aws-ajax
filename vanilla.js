@@ -22,12 +22,13 @@ function loadDoc() {
 	//httpRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 	httpRequest.send();
 }
-loadDoc();
+//loadDoc();
 
 $(function(){
 
- /*  $.ajax({
-      url: 'https://eforms.rhodar.co.uk/api/v1/training_updates/users?auth_token=MntrxJTGbX-Pqoy29dDn',
+ 	 $.ajax({
+      //url: 'https://eforms.rhodar.co.uk/api/v1/training_updates/users?auth_token=MntrxJTGbX-Pqoy29dDn',
+      url: 'http://54.234.147.103/aws-ajax/json.json',
       data: {
          format: 'json'
       },
@@ -44,7 +45,7 @@ $(function(){
 		});
       },
       type: 'GET'
-   });*/
+   });
 });
 
 
